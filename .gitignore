@@ -10,3 +10,6 @@ dist/
 .mypy_cache/
 .venv/
 venv/
+
+# Python\n.env
+*.db
