@@ -59,7 +59,8 @@ class Settings(BaseSettings):
     ])
     browser_queries: list[dict[str, str]] = Field(default=[
         {"url": "https://weworkremotely.com/remote-jobs/search?term=python+vue", "label": "WWR browser: python+vue", "platform": "weworkremotely"},
-        {"url": "https://wellfound.com/jobs?role=fullstack&remote=true", "label": "Wellfound: fullstack remote", "platform": "wellfound"},`n        {"url": "https://www.indeed.com/jobs?q=python+developer&l=Europe&fromage=14", "label": "Indeed: python Europe 14d", "platform": "indeed"},
+        {"url": "https://wellfound.com/jobs?role=fullstack&remote=true", "label": "Wellfound: fullstack remote", "platform": "wellfound"},
+        {"url": "https://www.indeed.com/jobs?q=python+developer&l=Europe&fromage=14", "label": "Indeed: python Europe 14d", "platform": "indeed"},
     ])
 
 
